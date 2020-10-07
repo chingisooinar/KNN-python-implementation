@@ -12,11 +12,10 @@ It is important to note that there is a large variety of options to choose as a 
 
 Let’s compare our implementation with the one provided by scikit learn. I am going to use a simple toy dataset that contains two predictors, which are age and salary. Thus, we want to predict if a customer is willing to purchase our product. Finally, I will define both models and fit our data. Please refer to the KNN implementation provided above. I am selecting 5 as our default k value. Note that for the latter model the default metric is minkowski, and with p=2 is equivalent to the standard Euclidean metric.
 
-![README(kNN%20d054ba7e11524969817e6ca2468e9804/Untitled.png](README(kNN%20d054ba7e11524969817e6ca2468e9804/Untitled.png)
+
 <img src="Python Implementation of K-Nearest Neighbours (kNN d054ba7e11524969817e6ca2468e9804//Untitled.png">
 
 # Results
 
 The accuracy turned out to be 0.93, which is a pretty good result. The figure attached below is a visualization of our test set results. I am providing a single figure since both models are identical. However, I personally suggest using implementations that are provided already since our implementation is simple and inefficient. Moreover, it is just more convenient not to keep writing the exact same code every time.
-
-![Python%20Implementation%20of%20K-Nearest%20Neighbours%20(kNN%20d054ba7e11524969817e6ca2468e9804/Untitled%201.png](Python%20Implementation%20of%20K-Nearest%20Neighbours%20(kNN%20d054ba7e11524969817e6ca2468e9804/Untitled%201.png)
+<img src="Python Implementation of K-Nearest Neighbours (kNN d054ba7e11524969817e6ca2468e9804//Untitled 1.png">
